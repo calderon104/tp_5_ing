@@ -60,7 +60,7 @@ public class profesorTest {
         System.out.println("Repartir grupo");
         int alumnos=32;
         int profesores=4;
-        int expResult=9;
+        int expResult=8;
         int result = profe.repartirGrupo(alumnos, profesores);
         assertEquals(expResult,result);
     }
